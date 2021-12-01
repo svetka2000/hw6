@@ -37,3 +37,11 @@
 Файлы: `hw6_one_hot_encoder.py`, `test_hw6_one_hot_encoder.py`
 
 * Для запуска необходимо в консоли написать команду `python -m pytest test_hw6_one_hot_encoder.py`
+
+## issue-05
+Тестирование функции, возвращающей текущий год. Дату и время получаем из API-worldclock
+
+Напишите на неё тесты, проверяющие все сценарии работы
+
+Файлы: `hw6_what_is_year_now.py`
+
