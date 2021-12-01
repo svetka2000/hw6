@@ -1,5 +1,5 @@
 import pytest
-from hw6 import decode
+from hw6_morse import decode
 
 
 @pytest.mark.parametrize('result,expected',
