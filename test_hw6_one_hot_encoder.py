@@ -13,9 +13,7 @@ from hw6_one_hot_encoder import fit_transform
                              (['Moscow' for i in range(500)], [('Moscow', [1]) for _ in range(500)])]
                          )
 def test_exception_1(result, expected):
-    with pytest.raises(AssertionError):
-        if fit_transform(result) == expected:
-            raise AssertionError
+    assert fit_transform(result) == expected
 
 
 def test_exception_2():
@@ -24,15 +22,11 @@ def test_exception_2():
 
 
 def test_exception_3():
-    with pytest.raises(TypeError):
-        if isinstance(fit_transform('Moscow'), type('Moscow', [1])):
-            raise TypeError
+    assert isinstance(fit_transform('Moscow'), type('Moscow', [1]))
 
 
 def test_exception_4():
     cities = ['Moscow', 'Piter', 'London', 'Moscow', 'Sochi']
     exp_transformed_cities = ('Moscow', [0, 0, 0, 1])
     transformed_cities = fit_transform(cities)
-    with pytest.raises(AssertionError):
-        if exp_transformed_cities in transformed_cities:
-            raise AssertionError
+    assert exp_transformed_cities in transformed_cities
