@@ -54,7 +54,13 @@
 
 * Если правильно запустить все тесты
 
+![image](https://user-images.githubusercontent.com/89844167/144384477-bec2774c-04e7-4684-a5eb-b78781a8797b.png)
+![image](https://user-images.githubusercontent.com/89844167/144384570-b176c32e-c7df-47ae-8185-0b4ccb03ba9a.png)
 
 * Если допустить ошибку в одном тесте
+![image](https://user-images.githubusercontent.com/89844167/144385420-8e02f615-be24-458e-ac2e-e44214b43e6f.png)
+![image](https://user-images.githubusercontent.com/89844167/144385471-b28ffd54-de5a-4675-8872-8dca5affb491.png)
+![image](https://user-images.githubusercontent.com/89844167/144385556-8a252eea-9a3c-4dee-97c5-5e15d647ba04.png)
+![image](https://user-images.githubusercontent.com/89844167/144385589-8fad95a5-3ba9-4627-bf8f-5b1d2bdea50b.png)
 
 
