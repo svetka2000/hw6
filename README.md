@@ -43,5 +43,8 @@
 
 Напишите на неё тесты, проверяющие все сценарии работы
 
-Файлы: `hw6_what_is_year_now.py`
+Файлы: `hw6_what_is_year_now.py`, `test_hw6_what_is_year_now.py`
+
+* Для запуска необходимо в консоли написать команду `python -m coverage run -m pytest test_hw6_what_is_year_now.py` в консоль
+* Для записи отчёта по покрытию в html необходимо написать команду `python -m coverage html` в консоль
 
