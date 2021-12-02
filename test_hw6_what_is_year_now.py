@@ -10,10 +10,12 @@ def test_2020():
     with patch.object(urllib.request, 'urlopen', return_value=data):
         assert what_is_year_now() == 2020
 
+
 def test_2021():
     data = io.StringIO('{"currentDateTime": "02.12.2021"}')
     with patch.object(urllib.request, 'urlopen', return_value=data):
         assert what_is_year_now() == 2021
+
 
 def test_error():
     data = io.StringIO('{"currentDateTime": "2_12_2021"}')

@@ -66,8 +66,8 @@ def decode(morse_message: str) -> str:
 if __name__ == '__main__':
     #morse_msg = '-- .- .. -....- .--. -.-- - .... --- -. -....- ..--- ----- .---- ----.'
     #decoded_msg = decode(morse_msg)
-    #print(decoded_msg)
+    # print(decoded_msg)
     #assert morse_msg == encode(decoded_msg)
-    #print(encode('JINGLE-BELLS'))
+    # print(encode('JINGLE-BELLS'))
     #print(decode('.--- .. -. --. .-.. .   -... . .-.. .-.. ...'))
     doctest.testmod()

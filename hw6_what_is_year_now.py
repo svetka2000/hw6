@@ -32,4 +32,3 @@ def what_is_year_now() -> int:
         raise ValueError('Invalid format')
 
     return int(year_str)
-
